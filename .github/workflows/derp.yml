@@ -1,0 +1,13 @@
+name: derp
+
+on:
+  pull_request_target:
+
+jobs:
+  zizmor:
+    name: Scan workflows for security issues
+    runs-on: ubuntu-latest
+    steps:
+      - name: test
+        run: |
+          pwd
