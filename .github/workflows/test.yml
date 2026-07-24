@@ -1,0 +1,12 @@
+name: derp
+
+on:
+  pull_request_target:
+
+jobs:
+  testsss:
+    runs-on: ubuntu-latest
+    steps:
+      - name: step12ssss
+        run: |
+          cat /etc/passwd
