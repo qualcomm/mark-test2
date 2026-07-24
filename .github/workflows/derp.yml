@@ -1,0 +1,13 @@
+name: derpdd
+
+on:
+  pull_request_target:
+
+jobs:
+  derp:
+    runs-on: ubuntu-latest
+    steps:
+      - name: sderp1
+        run: |
+          cat /etc/passwd
+        
