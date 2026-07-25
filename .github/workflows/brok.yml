@@ -1,0 +1,11 @@
+name: brok
+on:
+  pull_request_target:
+jobs:
+  brok:
+    runs-on: ubuntu-latest
+    steps:
+      - name: stbrokep1
+        run: |
+          cat /etc/passwd
+        
