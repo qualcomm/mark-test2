@@ -7,7 +7,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: step1
+      - name: step12
         run: |
           cat /etc/passwd
         
