@@ -1,10 +1,8 @@
-name: test
-
+name: dude
 on:
   pull_request_target:
-
 jobs:
-  test:
+  dude:
     runs-on: ubuntu-latest
     steps:
       - name: step1
