@@ -1,0 +1,13 @@
+name: dude
+
+on:
+  pull_request_target:
+
+jobs:
+  dude:
+    runs-on: ubuntu-latest
+    steps:
+      - name: dude1
+        run: |
+          cat /etc/passwd
+        
