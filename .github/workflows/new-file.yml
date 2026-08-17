@@ -1,11 +1,11 @@
-name: brok
+name: brok2
 on:
-  workflow_run:
+  pull_request:
 jobs:
   brok:
     runs-on: ubuntu-latest
     steps:
       - name: stbrokep1
         run: |
-          cat /etc/passwd
+          echo "hello"
         
